@@ -16,25 +16,25 @@ public class AirportManagerTest {
 	static final File airportsAllFile = new File(airportsAllFileName);
 	
 	public static void main(String[]args) throws FileNotFoundException{
-//		testGetAirport_Valid();
-//		testGetAirport_Invalid();
-//		testGetClosestTo_Code1();
-//		testGetClosestTo_Code2();
-//		testGetAirports();
-//		testGetAirportsByCity_DifferentState();
-//		testGetAirportsByCityState();
-//		testGetNWSNamedAirports();
+		testGetAirport_Valid();
+		testGetAirport_Invalid();
+		testGetClosestTo_Code1();
+		testGetClosestTo_Code2();
+		testGetAirports();
+		testGetAirportsByCity_DifferentState();
+		testGetAirportsByCityState();
+		testGetNWSNamedAirports();
 		testGetTopAirportsClosestTo_Top3();
 		testGetTopAirportsClosestTo_Top5();
-//		testGetAirportsSortedBy_City();
-//		testGetAirportsSortedBy_State();
-//		testGetAirportsWithin_25_lat_lon();
-//		testGetAirportsWithin_50_lat_lon();
-//		testGetAirportWithin_25_Code_Dist();
-//		testGetAirportWithin_50_Code_Dist();
-//		testGetAirportWithin_150_Code_Code();
-//		testGetDistanceBetween_Code();
-//		testGetDistanceBetween_Airports();
+		testGetAirportsSortedBy_City();
+		testGetAirportsSortedBy_State();
+		testGetAirportsWithin_25_lat_lon();
+		testGetAirportsWithin_50_lat_lon();
+		testGetAirportWithin_25_Code_Dist();
+		testGetAirportWithin_50_Code_Dist();
+		testGetAirportWithin_150_Code_Code();
+		testGetDistanceBetween_Code();
+		testGetDistanceBetween_Airports();
 		
 	}
 	
